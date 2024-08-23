@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 
-// Simple validation function
 const validateForm = (formData) => {
   const errors = {};
   if (!formData.name) errors.name = 'Name is required';
